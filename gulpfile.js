@@ -72,7 +72,7 @@ const reload = (done) =>  {
   // watch(paths.html + "**/_*.pug", reload);
   // watch(paths.scss + "**/_*.scss", reload);
   watch(paths.css + "**/*.css", reload);
-  watch(paths.assets + "**/*", compressGzip);
+  // watch(paths.assets + "**/*", compressGzip);
   // watch(paths.css + "**/*.css", compressGzip);
   // watch(paths.html + "**/*.html", compressGzip);
   // watch(paths.js + "**/*.js", compressGzip);
